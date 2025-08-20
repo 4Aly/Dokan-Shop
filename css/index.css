@@ -111,7 +111,7 @@ video {
 .footer .top,
 .footer .mid,
 .footer .bottom,
-hr {
+.footer hr {
   width: 60%;
 }
 
@@ -156,7 +156,7 @@ hr {
   .footer .top,
   .footer .mid,
   .footer .bottom,
-  hr {
+  .footer hr {
     width: 80%;
   }
 }
@@ -173,7 +173,7 @@ hr {
   .footer .top,
   .footer .mid,
   .footer .bottom,
-  hr {
+  .footer hr {
     width: 80%;
   }
 }

@@ -82,6 +82,16 @@ p {
   color: red !important;
 }
 
+.photo {
+  height: 40vh;
+  background: url(../media/products-background.jpg) no-repeat top center/cover;
+}
+
+.photo h1 {
+  font-size: 3em;
+  letter-spacing: 0.1em;
+}
+
 @media screen and (max-width: 1199px) {
   .footer .top,
   .footer .mid,
@@ -97,5 +107,11 @@ p {
   .footer .bottom,
   .footer hr {
     width: 80%;
+  }
+  .bottom {
+    flex-direction: row;
+  }
+  .photo {
+    font-size: 0.55em;
   }
 }
