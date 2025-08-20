@@ -133,6 +133,9 @@ p {
   .footer hr {
     width: 80%;
   }
+  .footer .top {
+    flex-direction: column !important;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -142,5 +145,16 @@ p {
 
   .address {
     font-size: 0.2em !important;
+  }
+
+  .address h1 {
+    font-size: 1.3rem !important;
+  }
+  .address p {
+    font-size: 1rem !important;
+  }
+
+  .feedback p {
+    font-size: 1rem !important;
   }
 }

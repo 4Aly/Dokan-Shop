@@ -98,4 +98,16 @@ p {
   .footer hr {
     width: 80%;
   }
+  .footer .top {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .buttons {
+    flex-direction: column !important;
+  }
+  .buttons button {
+    width: 100% !important;
+  }
 }

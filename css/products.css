@@ -92,6 +92,20 @@ p {
   letter-spacing: 0.1em;
 }
 
+.card {
+  transition: 0.4s;
+  width: 25%;
+}
+
+.card:hover {
+  border: 4px solid #333;
+  transform: scale(1.05);
+  background: #222222;
+}
+.card:hover h1 {
+  color: white !important ;
+}
+
 @media screen and (max-width: 1199px) {
   .footer .top,
   .footer .mid,
@@ -108,8 +122,13 @@ p {
   .footer hr {
     width: 80%;
   }
-  .bottom {
-    flex-direction: row;
+  .card {
+    flex-direction: column !important;
+    width: 90%;
+  }
+
+  .footer .top {
+    flex-direction: column !important;
   }
   .photo {
     font-size: 0.55em;

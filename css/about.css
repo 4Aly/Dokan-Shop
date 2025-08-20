@@ -66,19 +66,19 @@ p {
   cursor: pointer;
 }
 
-.footer .fa-facebook:hover {
+.fa-facebook:hover {
   color: blue !important;
 }
 
-.footer .fa-twitter:hover {
+.fa-twitter:hover {
   color: skyblue !important;
 }
 
-.footer .fa-whatsapp:hover {
+.fa-whatsapp:hover {
   color: green !important;
 }
 
-.footer .fa-youtube:hover {
+.fa-youtube:hover {
   color: red !important;
 }
 
@@ -160,6 +160,9 @@ p {
   .about-us .left,
   .about-us img {
     width: 90%;
+  }
+  .footer .top {
+    flex-direction: column !important;
   }
 }
 
