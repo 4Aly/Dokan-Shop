@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: Poppins, Arial;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  letter-spacing: 0.1em;
+}
+
+.nav-link {
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  background: indianred;
+  color: white;
+  font-size: 0.8em;
+  margin: 0.2em;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.nav-link.active {
+  color: indianred !important;
+}
+
+.nav-link.active:hover {
+  background: indianred;
+  color: white !important;
+  font-size: 0.8em;
+  margin: 0.2em;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.dropdown-menu a {
+  transition: 0.5s;
+}
+.dropdown-menu a:hover {
+  background: indianred;
+  color: white;
+  padding-left: 1.5em;
+  text-transform: uppercase;
+}
+
+.footer .top,
+.footer .mid,
+.footer .bottom,
+hr {
+  width: 60%;
+}
+
+.footer i {
+  font-size: 5em;
+}
+
+.footer .top a:hover {
+  color: indianred !important;
+}
+
+.footer .top .logo .text:hover {
+  color: indianred !important;
+  cursor: pointer;
+}
+
+.footer .fa-facebook:hover {
+  color: blue !important;
+}
+
+.footer .fa-twitter:hover {
+  color: skyblue !important;
+}
+
+.footer .fa-whatsapp:hover {
+  color: green !important;
+}
+
+.footer .fa-youtube:hover {
+  color: red !important;
+}
+
+@media screen and (max-width: 1199px) {
+  .footer .top,
+  .footer .mid,
+  .footer .bottom,
+  hr {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footer .top,
+  .footer .mid,
+  .footer .bottom,
+  hr {
+    width: 80%;
+  }
+}
